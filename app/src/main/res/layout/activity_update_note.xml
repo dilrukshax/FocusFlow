@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".UpdateNoteActivity">
+
+    <TextView
+        android:id="@+id/txtUpdateNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppins"
+        android:text="Edit Tasks"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/updateSaveNoteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/update_note"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/txtUpdateNote"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="6dp"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/UpdateEditTxtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/txtUpdateNote"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/blue_color_border"
+        android:fontFamily="@font/poppins"
+        android:hint="@string/title"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/UpdateEditTxtContent"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/poppins"
+        android:background="@drawable/blue_color_border"
+        android:layout_below="@+id/UpdateEditTxtTitle"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Date Picker -->
+    <Button
+        android:id="@+id/selectDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_date"
+        android:layout_below="@+id/UpdateEditTxtContent"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Priority Radio Buttons -->
+    <RadioGroup
+        android:id="@+id/priorityRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/selectDateBtn"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/priority"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"/>
+
+        <RadioButton
+            android:id="@+id/radioLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low" />
+
+        <RadioButton
+            android:id="@+id/radioMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medium" />
+
+        <RadioButton
+            android:id="@+id/radioHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high" />
+    </RadioGroup>
+
+</RelativeLayout>

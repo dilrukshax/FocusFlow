@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FocusFlow</string>
+    <string name="new_note">New Note</string>
+    <string name="title">Title</string>
+    <string name="all_notes">All Notes</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="add_note">Add Note</string>
+    <string name="my_tasks">My Tasks</string>
+    <string name="todo">TODO</string>
+    <string name="add_tasks">Add Tasks</string>
+    <string name="select_date">Select Date</string>
+    <string name="priority">"Priority    "</string>
+    <string name="low">low</string>
+    <string name="medium">medium</string>
+    <string name="high">high</string>
+    <string name="content">Content</string>
+    <string name="date">Date:   </string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@color/SecondaryColor"
+    tools:context=".NewNote">
+
+    <TextView
+        android:id="@+id/txtNewNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/add_tasks"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/saveNoteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/save_note"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/txtNewNote"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="6dp"
+         />
+
+    <EditText
+        android:id="@+id/editTxtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/txtNewNote"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/blue_color_border"
+        android:fontFamily="@font/poppins"
+        android:hint="@string/title"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:autofillHints=""
+         />
+
+    <EditText
+        android:id="@+id/editTxtContent"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/poppins"
+        android:background="@drawable/blue_color_border"
+        android:layout_below="@+id/editTxtTitle"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Date Calendar -->
+    <Button
+        android:id="@+id/selectDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_date"
+        android:layout_below="@+id/editTxtContent"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue"/>
+
+    <!-- Priority Radio Buttons -->
+    <RadioGroup
+        android:id="@+id/priorityRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/selectDateBtn"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/priority"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"/>
+
+        <RadioButton
+            android:id="@+id/radioLow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low" />
+
+        <RadioButton
+            android:id="@+id/radioMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medium" />
+
+        <RadioButton
+            android:id="@+id/radioHigh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high" />
+    </RadioGroup>
+
+</RelativeLayout>
