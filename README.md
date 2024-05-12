@@ -43,6 +43,7 @@ To get started with the FocusFlow app, follow these steps:
   <img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/76aff3e2-dd2b-4adb-8d86-8f8b6896b35c" alt="Add Task" width="250"/>
   <img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/bf59c0a6-f18a-4eb2-bd02-9dfd29f1a76a" alt="Edit Task" width="250"/>
   <img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/41285f24-9af1-48d4-a4b8-3ac328367485" alt="Delete Task" width="250"/>
+  <img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/60220b37-b740-4982-bab1-f18c46b1a160" alt="Delete Task" width="250"/>
 </div>
 
 ## Contributing
