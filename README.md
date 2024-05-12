@@ -38,9 +38,10 @@ To get started with the FocusFlow app, follow these steps:
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
+![image](https://github.com/dilrukshax/FocusFlow/assets/100220079/782274f7-4fde-4dc4-a14f-4a0f948e879b)
+![image](https://github.com/dilrukshax/FocusFlow/assets/100220079/76aff3e2-dd2b-4adb-8d86-8f8b6896b35c)
+![image](https://github.com/dilrukshax/FocusFlow/assets/100220079/bf59c0a6-f18a-4eb2-bd02-9dfd29f1a76a)
+![image](https://github.com/dilrukshax/FocusFlow/assets/100220079/41285f24-9af1-48d4-a4b8-3ac328367485)
 
 ## Contributing
 
