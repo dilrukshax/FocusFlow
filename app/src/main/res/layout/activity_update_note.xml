@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="25dp"
+    android:background="@color/SecondaryColor"
     tools:context=".UpdateNoteActivity">
 
     <TextView
@@ -13,53 +14,44 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="1dp"
-        android:fontFamily="@font/poppins"
-        android:text="Edit Tasks"
+        android:layout_marginTop="8dp"
+        android:text="@string/edit_tesk"
         android:textColor="@color/blue"
         android:textSize="24sp"
-        android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/updateSaveNoteBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/update_note"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@id/txtUpdateNote"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="6dp"
-        android:contentDescription="TODO" />
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins" />
 
     <EditText
         android:id="@+id/UpdateEditTxtTitle"
         android:layout_width="match_parent"
-        android:layout_height="65dp"
-        android:layout_below="@+id/txtUpdateNote"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtUpdateNote"
         android:layout_marginTop="16dp"
-        android:background="@drawable/blue_color_border"
-        android:fontFamily="@font/poppins"
         android:hint="@string/title"
-        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="@drawable/blue_color_border"
         android:padding="12dp"
-        android:textStyle="bold"
-        android:textSize="20sp"/>
+        android:fontFamily="@font/poppins" />
 
     <EditText
         android:id="@+id/UpdateEditTxtContent"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/UpdateEditTxtTitle"
+        android:layout_marginTop="16dp"
+        android:hint="@string/content"
         android:gravity="top"
-        android:padding="12dp"
+        android:textColor="@color/black"
         android:textSize="17sp"
-        android:fontFamily="@font/poppins"
         android:background="@drawable/blue_color_border"
-        android:layout_below="@+id/UpdateEditTxtTitle"
-        android:layout_marginTop="16dp"/>
+        android:padding="12dp"
+        android:fontFamily="@font/poppins" />
 
     <!-- Date Picker -->
     <Button
-        android:id="@+id/selectDateBtn"
+        android:id="@+id/UpdateSelectDateBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/select_date"
@@ -69,11 +61,11 @@
 
     <!-- Priority Radio Buttons -->
     <RadioGroup
-        android:id="@+id/priorityRadioGroup"
-        android:layout_width="wrap_content"
+        android:id="@+id/updatePriorityRadioGroup"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@+id/selectDateBtn"
+        android:layout_below="@+id/UpdateSelectDateBtn"
         android:layout_marginTop="16dp">
 
         <TextView
@@ -88,19 +80,38 @@
             android:id="@+id/radioLow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/low" />
+            android:text="@string/low"
+            android:textColor="@color/black" />
 
         <RadioButton
             android:id="@+id/radioMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/medium" />
+            android:text="@string/medium"
+            android:textColor="@color/black" />
 
         <RadioButton
             android:id="@+id/radioHigh"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/high" />
+            android:text="@string/high"
+            android:textColor="@color/black" />
     </RadioGroup>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/updateSaveNoteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_task"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue"
+        android:layout_below="@id/updatePriorityRadioGroup"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="32dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:layout_marginEnd="16dp" />
 
 </RelativeLayout>

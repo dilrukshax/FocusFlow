@@ -10,9 +10,9 @@ import java.util.*
 class NoteDatabaseHelp(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
 
     companion object {
-        private const val DATABASE_NAME = "noteapp.db"
+        private const val DATABASE_NAME = "taskapp.db"
         private const val DATABASE_VERSION = 1
-        private const val TABLE_NAME = "notes"
+        private const val TABLE_NAME = "alltasks"
         private const val COLUMN_ID = "id"
         private const val COLUMN_TITLE = "title"
         private const val COLUMN_CONTENT = "content"

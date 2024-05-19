@@ -15,4 +15,8 @@
     <string name="high">high</string>
     <string name="content">Content</string>
     <string name="date">Date:   </string>
+    <string name="save_note" >Save Note</string>
+    <string name="edit_tesk">Edit Tesk</string>
+    <string name="update_note">update note</string>
+    <string name="update_task">Update Task</string>
 </resources>
