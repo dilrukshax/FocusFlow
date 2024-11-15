@@ -1,3 +1,4 @@
+
 # 🚀 FocusFlow - Task Management App
 
 <p align="center">
@@ -34,18 +35,18 @@
 
 ## 📷 Screenshots
 
-### 📋 Task List
-<img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/782274f7-4fde-4dc4-a14f-4a0f948e879b" alt="Task List" width="250"/>
+### Task Management at a Glance
 
-### ➕ Add Task
-<img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/76aff3e2-dd2b-4adb-8d86-8f8b6896b35c" alt="Add Task" width="250"/>
+<p align="center">
+  <img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/782274f7-4fde-4dc4-a14f-4a0f948e879b" alt="Task List" width="250" style="border: 2px solid #000; margin-right: 10px;"/>
+  <img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/76aff3e2-dd2b-4adb-8d86-8f8b6896b35c" alt="Add Task" width="250" style="border: 2px solid #000; margin-right: 10px;"/>
+  <img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/bf59c0a6-f18a-4eb2-bd02-9dfd29f1a76a" alt="Edit Task" width="250" style="border: 2px solid #000;"/>
+</p>
 
-### ✏️ Edit Task
-<img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/bf59c0a6-f18a-4eb2-bd02-9dfd29f1a76a" alt="Edit Task" width="250"/>
-
-### ❌ Delete Task
-<img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/41285f24-9af1-48d4-a4b8-3ac328367485" alt="Delete Task" width="250"/>
-<img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/60220b37-b740-4982-bab1-f18c46b1a160" alt="Delete Task Confirmation" width="250"/>
+<p align="center">
+  <img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/41285f24-9af1-48d4-a4b8-3ac328367485" alt="Delete Task" width="250" style="border: 2px solid #000; margin-right: 10px;"/>
+  <img src="https://github.com/dilrukshax/FocusFlow/assets/100220079/60220b37-b740-4982-bab1-f18c46b1a160" alt="Delete Task Confirmation" width="250" style="border: 2px solid #000;"/>
+</p>
 
 ---
 
@@ -87,7 +88,5 @@ We welcome contributions to improve FocusFlow! Here's how you can get involved:
    ```
 
 ---
-
-
 
 ## 🎉 Happy Productivity! 🚀
